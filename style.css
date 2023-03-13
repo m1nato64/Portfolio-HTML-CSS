@@ -12,7 +12,7 @@ body {
 .containerForButtons_all {
     max-width: 100%;
     min-height: 100vh;
-    background: url(background.jpg);
+    background: url(images/background.jpg);
     background-position: center;
     background-size: cover;
     padding-top: 0;
@@ -33,7 +33,7 @@ nav {
 }
 
 span {
-    color: #f9004d;
+    color: #582d7a;
 }
 
 nav ul li {
@@ -87,13 +87,14 @@ a {
 .cuteButton {
     color: #000;
     text-decoration: none;
-    background: #FFF;
-    padding: 9px 25px;
+    padding: 9px;
     font-weight: bold;
-    border-radius: 2px;
+    border-radius: 6px;
     transition: 0.5s;
-}
-
-.link .cuteButton:hover {
+  }
+  .link .cuteButton:hover{
     background: transparent;
-}
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  
